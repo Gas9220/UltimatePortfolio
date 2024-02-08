@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SidebarView.swift
 //  UltimatePortfolio
 //
 //  Created by Gaspare Monte on 08/02/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SidebarView: View {
     var body: some View {
-        Text("Content")
+        Text("Sidebar")
     }
 }
 
 #Preview {
-    ContentView()
+    SidebarView()
 }
