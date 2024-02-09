@@ -14,6 +14,7 @@ class DataController: ObservableObject {
     @Published var selectedIssue: Issue?
 
     @Published var filterText = ""
+    @Published var filterTokens = [Tag]()
 
     private var saveTask: Task<Void, Error>?
 
@@ -22,6 +23,21 @@ class DataController: ObservableObject {
         dataController.createSampleData()
         return dataController
     }()
+
+    var suggestedFilterTokens: [Tag] {
+        guard filterText.starts(with: "#") else {
+            return []
+        }
+
+        let trimmedFilterText = String(filterText.dropFirst()).trimmingCharacters(in: .whitespaces)
+        let request = Tag.fetchRequest()
+
+        if trimmedFilterText.isEmpty == false {
+            request.predicate = NSPredicate(format: "name CONTAINS[c] %@", trimmedFilterText)
+        }
+
+        return (try? container.viewContext.fetch(request).sorted()) ?? []
+    }
 
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "Main")
@@ -137,6 +153,13 @@ class DataController: ObservableObject {
             let contentPredicate = NSPredicate(format: "content CONTAINS[C] %@", trimmedFilterText)
             let combinedPredicate = NSCompoundPredicate(orPredicateWithSubpredicates: [titlePredicate, contentPredicate])
             predicates.append(combinedPredicate)
+        }
+
+        if filterTokens.isEmpty == false {
+            for filterToken in filterTokens {
+                let tokenPredicate = NSPredicate(format: "tags CONTAINS %@", filterToken)
+                predicates.append(tokenPredicate)
+            }
         }
 
         let request = Issue.fetchRequest()
