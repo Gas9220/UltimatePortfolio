@@ -67,7 +67,7 @@ struct ContentView: View {
         .searchable(text: $dataController.filterText,
                     tokens: $dataController.filterTokens,
                     suggestedTokens: .constant(dataController.suggestedFilterTokens),
-                    prompt: "Filter issues or type # to add tags") { tag in Text(tag.tagName) }
+                    prompt: "Filter issues, or type # to add tags") { tag in Text(tag.tagName) }
     }
 
     func delete(_ offsets: IndexSet) {
