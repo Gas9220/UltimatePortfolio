@@ -31,6 +31,7 @@
 		6B77436C2B7CFBC700808732 /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77436B2B7CFBC700808732 /* SidebarViewToolbar.swift */; };
 		6B77436E2B7CFD3600808732 /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77436D2B7CFD3600808732 /* IssueViewToolbar.swift */; };
 		6B7743702B7CFDD100808732 /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B77436F2B7CFDD100808732 /* ContentViewToolbar.swift */; };
+		6B7743722B7CFF4C00808732 /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7743712B7CFF4C00808732 /* TagsMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		6B77436B2B7CFBC700808732 /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
 		6B77436D2B7CFD3600808732 /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
 		6B77436F2B7CFDD100808732 /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
+		6B7743712B7CFF4C00808732 /* TagsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				6B719CAA2B75121D000864E7 /* DetailView.swift */,
 				6B719CB52B7520FA000864E7 /* IssueRow.swift */,
 				6B719CB72B75265A000864E7 /* IssueView.swift */,
+				6B7743712B7CFF4C00808732 /* TagsMenuView.swift */,
 				6B77436D2B7CFD3600808732 /* IssueViewToolbar.swift */,
 				6B719CB92B752667000864E7 /* NoIssueView.swift */,
 				6B2543442B7A204600FD6F7E /* AwardView.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B719CAD2B7512BC000864E7 /* Filter.swift in Sources */,
+				6B7743722B7CFF4C00808732 /* TagsMenuView.swift in Sources */,
 				6B2543432B7A1FAB00FD6F7E /* Award.swift in Sources */,
 				6B77436E2B7CFD3600808732 /* IssueViewToolbar.swift in Sources */,
 				6B719CB12B751BC9000864E7 /* Tag-CoreDataHelpers.swift in Sources */,
