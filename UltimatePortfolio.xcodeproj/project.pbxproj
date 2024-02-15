@@ -121,7 +121,6 @@
 		6B719C872B750A57000864E7 = {
 			isa = PBXGroup;
 			children = (
-				6BADE4902B7E2C0800E96663 /* PerformanceTests.swift */,
 				6B719C922B750A57000864E7 /* UltimatePortfolio */,
 				6BADE4762B7E13B800E96663 /* UltimatePortfolioTests */,
 				6B719C912B750A57000864E7 /* Products */,
@@ -248,6 +247,7 @@
 				6BADE4832B7E1A1C00E96663 /* AwardsTest.swift */,
 				6BADE4852B7E1E4600E96663 /* DevelopmentTests.swift */,
 				6BADE4872B7E25A000E96663 /* ExtensionTests.swift */,
+				6BADE4902B7E2C0800E96663 /* PerformanceTests.swift */,
 			);
 			path = UltimatePortfolioTests;
 			sourceTree = "<group>";
