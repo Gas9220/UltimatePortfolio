@@ -32,10 +32,14 @@ extension Issue {
     }
 
     var issueTagsList: String {
-        guard let tags else { return "No tags"}
+        let noTags = NSLocalizedString("No tags", comment: "")
+
+        guard let tags else {
+            return noTags
+        }
 
         if tags.count == 0 {
-            return "No tags"
+            return noTags
         } else {
             return issueTags.map(\.tagName).formatted()
         }
@@ -43,9 +47,9 @@ extension Issue {
 
     var issueStatus: String {
         if completed {
-            return "Closed"
+            return NSLocalizedString("Closed", comment: "")
         } else {
-            return "Open"
+            return NSLocalizedString("Open", comment: "")
         }
     }
 
