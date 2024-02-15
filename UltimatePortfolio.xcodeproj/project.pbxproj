@@ -46,6 +46,7 @@
 		6BADE4992B7E4B7900E96663 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE4982B7E4B7900E96663 /* UltimatePortfolioUITests.swift */; };
 		6BADE49B2B7E4B7900E96663 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE49A2B7E4B7900E96663 /* UltimatePortfolioUITestsLaunchTests.swift */; };
 		6BADE4A22B7E78D300E96663 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE4A12B7E78D300E96663 /* SidebarViewModel.swift */; };
+		6BADE4A42B7E7EDA00E96663 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE4A32B7E7EDA00E96663 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		6BADE4982B7E4B7900E96663 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		6BADE49A2B7E4B7900E96663 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6BADE4A12B7E78D300E96663 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
+		6BADE4A32B7E7EDA00E96663 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				6B719C952B750A57000864E7 /* ContentView.swift */,
+				6BADE4A32B7E7EDA00E96663 /* ContentViewModel.swift */,
 				6B77436F2B7CFDD100808732 /* ContentViewToolbar.swift */,
 				6B719CB52B7520FA000864E7 /* IssueRow.swift */,
 			);
@@ -466,6 +469,7 @@
 				6B719CAB2B75121D000864E7 /* DetailView.swift in Sources */,
 				6B719CA62B750C67000864E7 /* DataController.swift in Sources */,
 				6BADE4A22B7E78D300E96663 /* SidebarViewModel.swift in Sources */,
+				6BADE4A42B7E7EDA00E96663 /* ContentViewModel.swift in Sources */,
 				6B719CA92B751210000864E7 /* SidebarView.swift in Sources */,
 				6B7743702B7CFDD100808732 /* ContentViewToolbar.swift in Sources */,
 				6B2543452B7A204600FD6F7E /* AwardView.swift in Sources */,
