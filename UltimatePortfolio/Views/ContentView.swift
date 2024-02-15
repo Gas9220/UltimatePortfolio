@@ -19,10 +19,12 @@ struct ContentView: View {
         }
         .toolbar(content: ContentViewToolbar.init)
         .navigationTitle("Issues")
-        .searchable(text: $dataController.filterText,
-                    tokens: $dataController.filterTokens,
-                    suggestedTokens: .constant(dataController.suggestedFilterTokens),
-                    prompt: "Filter issues, or type # to add tags") { tag in Text(tag.tagName) }
+        .searchable(
+            text: $dataController.filterText,
+            tokens: $dataController.filterTokens,
+            suggestedTokens: .constant(dataController.suggestedFilterTokens),
+            prompt: "Filter issues, or type # to add tags") { tag in Text(tag.tagName)
+            }
     }
 
     func delete(_ offsets: IndexSet) {
