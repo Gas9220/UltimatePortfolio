@@ -45,6 +45,7 @@
 		6BADE4912B7E2C0800E96663 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE4902B7E2C0800E96663 /* PerformanceTests.swift */; };
 		6BADE4992B7E4B7900E96663 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE4982B7E4B7900E96663 /* UltimatePortfolioUITests.swift */; };
 		6BADE49B2B7E4B7900E96663 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE49A2B7E4B7900E96663 /* UltimatePortfolioUITestsLaunchTests.swift */; };
+		6BADE4A22B7E78D300E96663 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BADE4A12B7E78D300E96663 /* SidebarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		6BADE4962B7E4B7900E96663 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BADE4982B7E4B7900E96663 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		6BADE49A2B7E4B7900E96663 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BADE4A12B7E78D300E96663 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 			children = (
 				6B719CAC2B7512BC000864E7 /* Filter.swift */,
 				6B719CA82B751210000864E7 /* SidebarView.swift */,
+				6BADE4A12B7E78D300E96663 /* SidebarViewModel.swift */,
 				6B77436B2B7CFBC700808732 /* SidebarViewToolbar.swift */,
 				6B7743732B7D003200808732 /* SmartFilterRow.swift */,
 				6B7743752B7D009400808732 /* UserFilterRow.swift */,
@@ -462,6 +465,7 @@
 				6B25433D2B7A1BAA00FD6F7E /* Bundle-Decodable.swift in Sources */,
 				6B719CAB2B75121D000864E7 /* DetailView.swift in Sources */,
 				6B719CA62B750C67000864E7 /* DataController.swift in Sources */,
+				6BADE4A22B7E78D300E96663 /* SidebarViewModel.swift in Sources */,
 				6B719CA92B751210000864E7 /* SidebarView.swift in Sources */,
 				6B7743702B7CFDD100808732 /* ContentViewToolbar.swift in Sources */,
 				6B2543452B7A204600FD6F7E /* AwardView.swift in Sources */,
