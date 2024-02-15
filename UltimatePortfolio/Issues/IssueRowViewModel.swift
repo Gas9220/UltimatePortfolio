@@ -8,6 +8,7 @@
 import Foundation
 
 extension IssueRow {
+    @dynamicMemberLookup
     class ViewModel: ObservableObject {
         let issue: Issue
 
@@ -33,6 +34,10 @@ extension IssueRow {
 
         init(issue: Issue) {
             self.issue = issue
+        }
+
+        subscript<Value>(dynamicMember keyPath: KeyPath<Issue, Value>) -> Value {
+            issue[keyPath: keyPath]
         }
     }
 }

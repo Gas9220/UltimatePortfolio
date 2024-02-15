@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct IssueRow: View {
-    @EnvironmentObject var dataController: DataController
     @StateObject var viewModel: ViewModel
 
     init(issue: Issue) {
@@ -25,11 +24,11 @@ struct IssueRow: View {
                     .accessibilityIdentifier(viewModel.iconIdentifier)
 
                 VStack(alignment: .leading) {
-                    Text(viewModel.issue.issueTitle)
+                    Text(viewModel.issueTitle)
                         .font(.headline)
                         .lineLimit(1)
 
-                    Text(viewModel.issue.issueTagsList)
+                    Text(viewModel.issueTagsList)
                         .foregroundStyle(.secondary)
                         .lineLimit(1)
                 }
@@ -41,7 +40,7 @@ struct IssueRow: View {
                         .accessibilityLabel(viewModel.accessibilityCreationDate)
                         .font(.subheadline)
 
-                    if viewModel.issue.completed {
+                    if viewModel.completed {
                         Text("CLOSED")
                             .font(.body.smallCaps())
                     }
@@ -50,7 +49,7 @@ struct IssueRow: View {
             }
         }
         .accessibilityHint(viewModel.accessibilityHint)
-        .accessibilityIdentifier(viewModel.issue.issueTitle)
+        .accessibilityIdentifier(viewModel.issueTitle)
     }
 }
 
