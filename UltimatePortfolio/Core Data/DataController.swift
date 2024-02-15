@@ -122,7 +122,7 @@ class DataController: ObservableObject {
 
         try? viewContext.save()
     }
-    
+
     /// Saves our Core Data context if (only if) there are changes. This silently ignores
     /// any errors caused by saving, but this should be fine because
     /// all our attributes are optional.
@@ -179,7 +179,7 @@ class DataController: ObservableObject {
 
         return difference.sorted()
     }
-    
+
     /// Runs a fetch request with various predicates that filter the user's issues base on
     /// tag, title, and context text, search tokens, priority, and completion status.
     /// - Returns: An array of all matching issues.
