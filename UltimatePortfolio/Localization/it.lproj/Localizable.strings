@@ -88,3 +88,11 @@
 
 /* DEBUG ONLY */
 "ADD SAMPLES" = "DATI ESEMPIO";
+
+/* REMINDERS */
+"Reminders" = "Notifiche";
+"Show reminders" = "Mostra notifiche";
+"Oops!" = "Oops!";
+"There was a problem setting your notification. Please check you have notifications enabled." = "C'e stato un problema nel settare le notifiche. Assicurati di aver abilitato le notifiche.";
+"Check Settings" = "Apri impostazioni";
+"Reminder time" = "Orario notifica";

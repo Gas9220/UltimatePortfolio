@@ -89,3 +89,11 @@
 
 /* DEBUG ONLY */
 "ADD SAMPLES" = "ADD SAMPLES";
+
+/* REMINDERS */
+"Reminders" = "Reminders";
+"Show reminders" = "Show reminders";
+"Oops!" = "Oops!";
+"There was a problem setting your notification. Please check you have notifications enabled." = "There was a problem setting your notification. Please check you have notifications enabled.";
+"Check Settings" = "Check Settings";
+"Reminder time" = "Reminder time";
