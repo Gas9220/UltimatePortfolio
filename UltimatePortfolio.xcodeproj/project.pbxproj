@@ -101,7 +101,7 @@
 		6B7743752B7D009400808732 /* UserFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRow.swift; sourceTree = "<group>"; };
 		6BADE4752B7E13B800E96663 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BADE4772B7E13B800E96663 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
-		6BADE47E2B7E14BC00E96663 /* UltimatePortfolio.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = UltimatePortfolio.xctestplan; sourceTree = SOURCE_ROOT; };
+		6BADE47E2B7E14BC00E96663 /* UltimatePortfolio.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UltimatePortfolio.xctestplan; sourceTree = SOURCE_ROOT; };
 		6BADE47F2B7E164B00E96663 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
 		6BADE4812B7E181000E96663 /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
 		6BADE4832B7E1A1C00E96663 /* AwardsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsTest.swift; sourceTree = "<group>"; };
